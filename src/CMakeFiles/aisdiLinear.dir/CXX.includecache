@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luke/Dokumenty/Code/AISDI/aisdilol/Liniowe/src/LinkedList.h
+cstddef
+-
+initializer_list
+-
+stdexcept
+-
+
+/home/luke/Dokumenty/Code/AISDI/aisdilol/Liniowe/src/Vector.h
+cstddef
+-
+initializer_list
+-
+stdexcept
+-
+iostream
+-
+
+/home/luke/Dokumenty/Code/AISDI/aisdilol/Liniowe/src/main.cpp
+cstddef
+-
+cstdlib
+-
+string
+-
+iostream
+-
+fstream
+-
+Vector.h
+/home/luke/Dokumenty/Code/AISDI/aisdilol/Liniowe/src/Vector.h
+LinkedList.h
+/home/luke/Dokumenty/Code/AISDI/aisdilol/Liniowe/src/LinkedList.h
+time.h
+-
+

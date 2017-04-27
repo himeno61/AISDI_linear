@@ -1,0 +1,21 @@
+Start testing: Apr 28 01:44 CEST
+----------------------------------------------------------
+1/1 Testing: boostUnitTestsRun
+1/1 Test: boostUnitTestsRun
+Command: "/home/luke/Dokumenty/Code/AISDI/aisdilol/Liniowe/tests/aisdiLinearTests"
+Directory: /home/luke/Dokumenty/Code/AISDI/aisdilol/Liniowe/tests
+"boostUnitTestsRun" start time: Apr 28 01:44 CEST
+Output:
+----------------------------------------------------------
+Running 372 test cases...
+
+*** No errors detected
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"boostUnitTestsRun" end time: Apr 28 01:44 CEST
+"boostUnitTestsRun" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 28 01:44 CEST
