@@ -127,7 +127,7 @@ public:
   void enlargeTab()
   { 
 	Type* temp;
-	size = size +  START_SIZE;
+	size+= size ;
 	temp = new Type[size];
 	unsigned int i;
 	for(i=0;i<index_empty;i++)
@@ -334,15 +334,16 @@ public:
   ConstIterator operator+(difference_type d) const
   {
     if( (static_cast<int>(d)+index) > Vct->getSize() )
-		throw std::out_of_range("Range: Out of range");
+		throw std::out_of_range("Operator +(diff) failure ");
     else
         return ConstIterator(Vct,&(Vct->tab[index+static_cast<int>(d)]) , index+static_cast<int>(d));
   }
 
   ConstIterator operator-(difference_type d) const
   {
-    if((index - static_cast<int>(d))<0)
-		throw std::out_of_range("Range: Out of range");
+	 int i = index-static_cast<int>(d);
+    if(i < 0)
+		throw std::out_of_range("Operator -(diff) failure ");
     else
 		return ConstIterator(Vct,&(Vct->tab[index-static_cast<int>(d)]) , index-static_cast<int>(d));
   }
